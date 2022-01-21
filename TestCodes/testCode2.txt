@@ -1,0 +1,19 @@
+dim a, c as int
+dim b as float
+
+Program
+{
+  print 3
+  print "hola"
+  let a = 5
+  print a
+  let a /= 2
+  print a
+  let a ^= 3
+  print a
+  let a = a + 3
+  print a
+  input b
+  let c = a ^ b
+  print c
+} 

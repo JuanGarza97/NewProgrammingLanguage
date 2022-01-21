@@ -1,0 +1,8 @@
+dim a, b, c, x as int 
+
+Program
+{ 
+  while((a > b) or (b < c))
+    while(a > b) 
+      let b = b + x
+}

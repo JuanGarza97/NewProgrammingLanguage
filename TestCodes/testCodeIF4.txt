@@ -1,0 +1,7 @@
+dim a,b,c,d as int
+
+Program
+{ 
+  input a
+  a == 5 ? print "Hola" : print "Adios" 
+}

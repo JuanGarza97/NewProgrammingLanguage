@@ -1,0 +1,27 @@
+dim i, j, z, x, w, k as int
+dim int C[20]
+dim int A[7][8][5]
+dim int B[4][3]
+
+
+Program
+{
+  let x = 4
+  let i = 1
+  let j = 1
+  let k = i
+  let z = i
+  let w = i
+  let C[w+z] = 8
+  print String(C[w+z]) 
+  let C[0] = 2
+  print String(C[0])
+  let C[1] = w + 2
+  print String(C[1])
+  let A[i+j][k][C[0]] = x + C[w+z]
+  print "A[" + String((i+j)) + "][" + String(k) + "][" + String(C[0]) + "]"
+  print String(A[i+j][k][C[0]])
+  print "Input B[2][1]"
+  input B[2][1]
+  print String(B[2][1])
+}

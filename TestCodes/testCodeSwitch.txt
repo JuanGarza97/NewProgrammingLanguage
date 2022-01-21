@@ -1,0 +1,43 @@
+dim x, z, d, e, f, g, p as int
+
+Program
+{ 
+  input x
+  let z = 8
+  let e = 2
+  let d = 12
+  let f = 1
+  switch(x)
+    {
+      case 1:
+        print "uno"
+        break
+      case 2:
+        print "dos"
+        break
+      case 3:
+        print "tres"
+        break
+      case 4:
+        print "cuatro"
+        break
+      case 5:
+        print "cinco"
+        break
+      case 6:
+        print "seis"
+        break
+      case 7:
+        print "siete"
+        break
+      case 8:
+        print "ocho"
+        break
+      case 9:
+        print "nueve"
+        break
+      case 0:
+        print "zero"
+        break
+    }
+}

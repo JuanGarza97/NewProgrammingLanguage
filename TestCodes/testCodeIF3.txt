@@ -1,0 +1,13 @@
+dim a,b,c,d as int
+
+Program
+{ 
+  if(a > b)
+    let a = c
+  else if(b > c)
+       let d = c
+  else if(c > d)
+       let b = d
+  else
+       let a = 0 
+}

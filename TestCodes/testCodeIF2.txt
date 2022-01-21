@@ -1,0 +1,14 @@
+dim x, z, d, e, f, g, p as int
+
+Program
+{ 
+  if(x < z)
+    let x = z
+  else
+  {  if(d > e)
+       let d = f + g
+     else
+       let g = p
+  }
+  
+}

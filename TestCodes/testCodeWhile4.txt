@@ -1,0 +1,9 @@
+dim x, y, z, w as int 
+
+Program
+{ 
+  do
+    let x = x + 1
+  while(x < y)
+  print x
+}

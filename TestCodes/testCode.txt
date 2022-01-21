@@ -1,0 +1,48 @@
+
+dim x1, y1, x2, y2, i, j as int  
+
+sub readDimension
+{  
+   print "Ingrese el numero de filas y columnas de la primer matriz" 
+   input x1 input y1 
+   print "Ingrese el numero de filas y columnas de la segunda matriz" 
+   input x2 input y2 
+
+   dim A as int[x1][y1] 
+   dim B as int[x2][y2] 
+   dim result as int[x1][y1]
+}
+
+sub getVal
+{ 
+   print "Ingrese los valores de la matriz A" 
+   for i = 0 to x1
+   { 
+     for j = 0 to y1
+     { 
+       input A[i][j] 
+     }
+   } 
+   for i = 0 to x2
+   { 
+     for j = 0 to y2 
+     {
+       input B[i][j] 
+     }
+   } 
+} 
+
+Program
+{ 
+   goSub readDimension 
+   goSub getVal 
+   let result = A + B 
+   for i = 0 to x2
+   { 
+     for j = 0 to y2
+     { 
+        print result[i][j] 
+     } 
+     print "\n" 
+   }
+}

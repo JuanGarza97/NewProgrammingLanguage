@@ -1,0 +1,98 @@
+dim a, b, c, temp, i as int
+dim result1, result2 as float
+dim select as String
+dim continue as bool
+dim int x[8]
+
+sub testArray
+{
+  let x[0] = 43
+  let a = x[0]
+  print a
+}
+
+sub getDigit
+{
+  print "Insert a number: "
+  input a
+  for i = 1 to length(String(a))
+  {
+    let temp = (a / 10^(i - 1)) % 10
+
+    switch(temp)
+    {
+      case 1:
+        print "uno\n"
+        break
+      case 2:
+        print "dos\n"
+        break
+      case 3:
+        print "tres\n"
+        break
+      case 4:
+        print "cuatro\n"
+        break
+      case 5:
+        print "cinco\n"
+        break
+      case 6:
+        print "seis\n"
+        break
+      case 7:
+        print "siete\n"
+        break
+      case 8:
+        print "ocho\n"
+        break
+      case 9:
+        print "nueve\n"
+        break
+      case 0:
+        print "zero\n"
+        break
+    }
+  }  
+}
+
+sub findRoots
+{
+  print "Insert coefficient a: "
+  input a
+  print "Insert coefficient b: "
+  input b
+  print "Insert coefficient c: "
+  input c
+
+  let result1 = (-b + (b^2 -4*a*c)^(1/2)) / (2*a)
+  let result2 = (-b - (b^2 -4*a*c)^(1/2)) / (2*a)
+  
+  print String(result1) + "\n"
+  print String(result2) + "\n"
+
+}
+
+Program
+{
+  let continue = True
+  while (continue)
+  {
+    print "Select a function: "
+    input select
+    switch(select)
+    {
+       case "getDigit":
+         goSub getDigit
+         break
+       case "findRoots":
+         goSub findRoots
+         break
+       case "testArray":
+	 goSub testArray
+	 break
+       case "exit":
+         let continue = False
+         break
+    }
+  }
+}

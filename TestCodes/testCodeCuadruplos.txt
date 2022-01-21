@@ -1,0 +1,6 @@
+dim x, y, z, w, a as int 
+
+Program
+{ 
+  let a = w + x * y + z
+}

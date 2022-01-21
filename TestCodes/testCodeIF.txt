@@ -1,0 +1,28 @@
+dim a, b,c ,d ,e, f as int
+
+Program
+{ 
+  let a = 1
+  let b = 2
+  let c = 3
+  let d = 4
+  let e = 4
+  let f = 6
+  if(a > b)
+  {
+    if(b<c)
+      let a = b
+    else
+      let b = c + d
+  }
+  else if(d == e)
+    let d = f
+
+  print a
+  let c = ++b + 5
+  print b
+  print c
+  print d 
+  print e
+  print f
+}

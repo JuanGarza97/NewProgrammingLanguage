@@ -1,0 +1,7 @@
+dim x, y, z, w as int 
+
+Program
+{ 
+  if((x + y) > (z - w) and (x != z))
+    print "hola"
+}

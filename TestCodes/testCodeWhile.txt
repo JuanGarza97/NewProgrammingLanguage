@@ -1,0 +1,13 @@
+dim x, y, z, w as int 
+
+Program
+{ 
+  let x = 8
+  let y = 1
+
+  while(x > y)
+  {
+    let x = x - 1
+    print x 
+  }
+}

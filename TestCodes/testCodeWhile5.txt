@@ -1,0 +1,9 @@
+dim a, b, c, d, x, y as int 
+
+Program
+{ 
+  while((a > b) or (b < c))
+    while(a > y)
+      if(b > x) 
+        let b = b + d
+}

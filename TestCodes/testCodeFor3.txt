@@ -1,0 +1,9 @@
+dim a, b, c as int
+
+Program
+{
+  for each a in b
+  {
+     let c = c + 1
+  }
+}

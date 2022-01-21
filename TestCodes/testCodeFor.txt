@@ -1,0 +1,11 @@
+dim z, c, b as int
+
+Program
+{
+  let b = 0
+  for z = 1 to 3
+  {
+     let b = b + 1
+  }
+  print b
+}

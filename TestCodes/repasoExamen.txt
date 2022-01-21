@@ -1,0 +1,6 @@
+dim a, b, c, d, e, f, g, h, i, j, x as int
+
+Program
+{
+  let x = a+b+c*d*e+f*(g+h)*i*j
+}

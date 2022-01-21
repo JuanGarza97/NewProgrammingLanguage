@@ -1,0 +1,8 @@
+dim x, y, z, w as int 
+
+Program
+{ 
+  while(x > y)
+    while(z < w)
+      let x = z - w
+}
